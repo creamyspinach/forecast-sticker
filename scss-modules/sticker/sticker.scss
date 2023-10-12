@@ -49,6 +49,7 @@
         }
         &_temp {
             grid-area: bar-temp;
+            background: linear-gradient(90deg, #8CD84A 0%, #8CD84A 22.4%, #FDB90C 37.39%, #D1C024 56.92%, #38F028 78.2%, #6894D5 98.47%);
         }
         &_wind {
             grid-area: bar-wind;
@@ -56,12 +57,16 @@
         }
         &_gusts {
             grid-area: bar-gusts;
+            background: linear-gradient(90deg, #8CD84A 0%, #8CD84A 22.4%, #FDB90C 37.39%, #D1C024 56.92%, #38F028 78.2%, #6894D5 98.47%);
         }
         &_clouds {
             grid-area: bar-clouds;
+            background: linear-gradient(90deg, rgba(247, 247, 247, 0) 0%, rgba(237, 237, 237, 0.17) 19.07%, #E8E8E8 29.19%, rgba(176, 176, 176, 0.42) 38.17%, #B5B5B5 46.37%, rgba(189, 189, 189, 0.61) 63.16%, rgba(205, 205, 205, 0.65) 66.9%, #E6E6E6 72.6%, #E7E7E7 79.11%, rgba(203, 203, 203, 0) 100%);
         }
         &_precipitation {
             grid-area: bar-precipitation;
+            background-image: url(../../images/precipitation-bg.svg);
+            background-size: 200px 30px;
         }
     }
     &__bar-item {
@@ -74,7 +79,7 @@
         mix-blend-mode: difference;
     //    color: #12212A;
         text-align: center;
-        font-size: 12px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
