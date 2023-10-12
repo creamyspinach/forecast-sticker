@@ -73,6 +73,7 @@
 }
 .sticker__bar-item_img {
   height: 100%;
+  width: auto;
   border: 0;
 }
 .sticker__bar-item:last-of-type {
