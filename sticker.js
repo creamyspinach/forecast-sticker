@@ -161,7 +161,7 @@ class WindySticker {
 }
 
 const stickerData = [];
-apiResponse.response.forecast.forEach((item) => {
+window.myData.response.forecast.forEach((item) => {
   if (item.timestamp >= Date.now() / 1000 && item.timestamp < Date.now() / 1000 + 54000) {
     const stickerItem = {};
     stickerItem.date = item.date;
